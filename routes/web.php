@@ -18,7 +18,8 @@ Route::get('/', function () {
         'Anastasia',
         'Gabriele',
         'Legolas',
-        'Ghimli',        
+        'Ghimli',
+        'Luciana',     
     ];
     return view('home', compact('crew'));
 });
