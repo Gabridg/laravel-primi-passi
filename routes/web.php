@@ -23,3 +23,10 @@ Route::get('/', function () {
     ];
     return view('home', compact('crew'));
 });
+
+Route::get('/about', function (){
+    return view('about');
+})->name('about');
+Route::get('/products', function (){
+    return view('products');
+})->name('products');
