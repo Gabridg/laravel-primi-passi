@@ -7,6 +7,14 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <ul>
+            <li>
+              <a href="{{route('products')}}"></a>  
+              <a href="{{route('about')}}"></a>  
+            </li>
+        </ul>
+    </header>
     <h2>CIAO MONDO !!</h2>
     <ul>
         @foreach($crew as $crew_member)
