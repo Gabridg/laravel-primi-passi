@@ -10,8 +10,10 @@
     <header>
         <ul>
             <li>
-              <a href="{{route('products')}}"></a>  
-              <a href="{{route('about')}}"></a>  
+              <a href="{{ route('products') }}">Prodotti</a>    
+            </li>
+            <li>
+            <a href="{{ route('about') }}">About Us</a>
             </li>
         </ul>
     </header>
